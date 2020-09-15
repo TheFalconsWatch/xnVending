@@ -7,8 +7,7 @@ Added Water Vending Machines
 ```This required a modification to client.lua where specifically the coffee machine would get stuck waiting for ped to be at the specific coordinate.```
 
 **Things to consider when implementing this resource**
-
-	```
+	
 	Ensure the items you plan on adding to machines are in your "items" table on your servers database.
 	
 	This script only gives you the item and deducts from your money
@@ -16,7 +15,6 @@ Added Water Vending Machines
 	Making the item usuable requires a separate resource, example esx_basicneeds
 	
 	If you use a graphical inventory hud, you may need to add custom item images
-	```
 	
 	
 	
