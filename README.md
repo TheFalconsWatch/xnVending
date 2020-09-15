@@ -1,5 +1,7 @@
-** Key Changes in this Fork ***
-Added Coffee Machine to Configuration 
+**Key Changes in this Fork**
+
+Added Coffee Machine to Configuration
+
 ```This required a modification to client.lua where specifically the coffee machine would get stuck waiting for ped to be at the specific coordinate.```
 
 **xnVending**
