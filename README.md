@@ -8,13 +8,15 @@ Added Water Vending Machines
 
 **Things to consider when implementing this resource**
 
-	```Ensure the items you plan on adding to machines are in your "items" table on your servers database.```
+	```
+	Ensure the items you plan on adding to machines are in your "items" table on your servers database.
 	
-	```This script only gives you the item and deducts from your money```
+	This script only gives you the item and deducts from your money
 	
-	```Making the item usuable requires a separate resource, example esx_basicneeds```
+	Making the item usuable requires a separate resource, example esx_basicneeds
 	
-	```If you use a graphical inventory hud, you may need to add custom item images```
+	If you use a graphical inventory hud, you may need to add custom item images
+	```
 	
 	
 	
