@@ -45,6 +45,12 @@ Config.Machines = {
 		prop = {`p_ing_coffeecup_01`},
 		price = {5}
 	},
+	[`prop_vend_water_01`] = {
+		item = {"water"},
+		name = {"Water"},
+		prop = {`prop_ld_flow_bottle`},
+		price = {1}
+	},
 	[`weed_vending`] = {
 		item = {"marijuana"},
 		name = {"Weed"},
