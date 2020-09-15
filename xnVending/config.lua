@@ -25,19 +25,25 @@ Config.Machines = {
 		item =  {"ecola"}, 				-- Database item names
 		name =  {"E-Cola"}, 			-- Friendly display names
 		prop =  {`prop_ecola_can`}, 	-- Props to spawn falling in machine
-		price = {1}						-- Purchase prices
+		price = {2}						-- Purchase prices
 	},
 	[`prop_vend_soda_02`] = {
 		item = {"sprunk"},
 		name = {"Sprunk"},
 		prop = {`prop_ld_can_01`},
-		price = {1}
+		price = {2}
 	},
 	[`prop_vend_snak_01`] = {
 		item = {"p&qs", "phatchips"},
 		name = {"Ps & Qs", "Phat Chips"},
 		prop = {`prop_candy_pqs`, `v_ret_ml_chips3`},
-		price = {3, 4}
+		price = {1, 1}
+	},
+	[`prop_vend_coffe_01`] = {
+		item = {"coffee"},
+		name = {"Coffee"},
+		prop = {`p_ing_coffeecup_01`},
+		price = {5}
 	},
 	[`weed_vending`] = {
 		item = {"marijuana"},
