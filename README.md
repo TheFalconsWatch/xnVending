@@ -22,7 +22,7 @@ Added Water Vending Machines
 
 **xnVending**
 
-This adds workable vending machines around the map for ESX, walk up to any vending machine that is configured in the `config.lua` and press `E` to purchase. Included in this release is a bonus vending machine model I made which is a weed vending machine, currently it is not placed anywhere on the map, you must do that yourself. I won't be telling you how, it's easy enough to google how to add custom things to the map.
+This adds workable vending machines around the map for ESX, walk up to any vending machine that is configured in the `config.lua` and press `selection number` to purchase. Included in this release is a bonus vending machine model I made which is a weed vending machine, currently it is not placed anywhere on the map, you must do that yourself. I won't be telling you how, it's easy enough to google how to add custom things to the map.
 
 **Installation**
 
