@@ -12,7 +12,7 @@ Added Water Vending Machines
 	
 	This script only gives you the item and deducts from your money
 	
-	Making the item usuable requires a separate resource, example esx_basicneeds
+	Making the item usuable requires a separate resource, modifying a resource like esx_basicneeds is a good place to start
 	
 	If you use a graphical inventory hud, you may need to add custom item images
 	
