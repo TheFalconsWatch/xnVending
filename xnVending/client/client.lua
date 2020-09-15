@@ -95,9 +95,10 @@ Citizen.CreateThread(function()
 							ReqTheModel(machineInfo.prop[i])
 							SetPedResetFlag(ped, 322, true)
 							if not IsEntityAtCoord(ped, position, 0.1, 0.1, 0.1, false, true, 0) then
-								TaskGoStraightToCoord(ped, position, 1.0, 20000, GetEntityHeading(VendingObject), 0.1)
-								while not IsEntityAtCoord(ped, position, 0.1, 0.1, 0.1, false, true, 0) do
-									Citizen.Wait(2000)
+								TaskGoStraightToCoord(ped, position, 1.0, 20000, GetEntityHeading(VendingObject), 0.7) do
+								-- while not IsEntityAtCoord(ped, position, 0.1, 0.1, 0.1, false, true, 0) do   
+								-- Change Note: moved do from line 98 up and disabled the while not, this was breaking the coffee vending machine
+									Citizen.Wait(500)  -- reduced wait time from 2000
 								end
 							end
 							TaskTurnPedToFaceEntity(ped, VendingObject, -1)
@@ -141,7 +142,7 @@ function nearVendingMachine()
 	local playerLoc = GetEntityCoords(player, 0)
 
 	for machine, _  in pairs(Config.Machines) do
-		VendingObject = GetClosestObjectOfType(playerLoc, 0.6, machine, false)
+		VendingObject = GetClosestObjectOfType(playerLoc, 0.8, machine, false)
 		if DoesEntityExist(VendingObject) then
 			machineModel = machine
             return true
